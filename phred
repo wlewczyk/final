@@ -1,0 +1,14 @@
+def main():
+	f = open('fastq.txt','r')
+	if f.mode == 'r':
+		#for line in f:
+
+		contents = f.read()
+		print(contents)
+
+
+
+if __name__ == '__main__':
+	main()
+
+
